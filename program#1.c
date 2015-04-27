@@ -3,7 +3,8 @@ int main()
 {
     char o;
     float num1,num2;
-    printf("This is calculator program");
+    printf("Hello");
+    printf("This is calculator");
     printf("enter operation + - * / : ");
     scanf("%c",&o);
     printf("Enter two operands: ");
