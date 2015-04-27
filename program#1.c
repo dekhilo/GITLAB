@@ -3,7 +3,8 @@ int main()
 {
     char o;
     float num1,num2;
-    printf("Enter operator either + or - or * or divide : ");
+    printf("This is calculator program");
+    printf("enter operation + - * / : ");
     scanf("%c",&o);
     printf("Enter two operands: ");
     scanf("%f%f",&num1,&num2);
