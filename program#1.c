@@ -3,8 +3,10 @@ int main()
 {
     char o;
     float num1,num2;
+
     printf("Hello");
     printf("This is calculator");
+
     printf("enter operation + - * / : ");
     scanf("%c",&o);
     printf("Enter two operands: ");
@@ -27,5 +29,6 @@ int main()
             printf("Error! operator is not correct");
             break;
     }
+    printf("Exit program");
     return 0;
 }
