@@ -11,28 +11,28 @@ void main()
     if(score>=0&&score<=100) 
      { 
          if(score>=80)
-            printf("score grade 4",score);
+            printf("score grade A",score);
 
         else if(score>=75)
-            printf("score grade 3.5",score);
+            printf("score grade B+",score);
 
         else if(score>=70)
-            printf("score grade 3",score);
+            printf("score grade B",score);
 
         else if(score>=65)
-            printf("score grade 2.5",score);
+            printf("score grade C+",score);
 
         else if(score>=60)
-            printf("score grade 2",score);
+            printf("score grade C",score);
 
         else if(score>=55)
-            printf("score grade 1.5",score);
+            printf("score grade D+",score);
 
         else if(score>=50)
-            printf("score grade 1",score);
+            printf("score grade D",score);
 
         else
-            printf("score grade 0",score);
+            printf("score grade F",score);
     }
     else
         printf("&d error!!!",score);
